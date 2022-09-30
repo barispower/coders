@@ -4,3 +4,21 @@ body{
 footer{
     border-top: 2px solid red;
 }
+
+
+section{
+    font-size:3em ;
+}
+.a{
+    font-size: 1rem;
+}
+
+.b{
+    font-size: 1rem;
+}
+
+.box1 img{
+    border:5px solid red;
+    display: block;
+    margin:50px auto;
+}
