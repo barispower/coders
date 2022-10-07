@@ -1,0 +1,20 @@
+main{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap:2vw;
+    justify-content: start;
+    align-content: center;
+    height:100vh;
+    align-items:stretch;
+}
+section{
+    background-color: red;
+    border:1px solid black;
+}
+section:nth-child(1){
+    background-color:green;
+}
+.tip{
+    background-color: aquamarine;
+}
