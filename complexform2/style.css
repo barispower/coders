@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(222, 206, 206);
+}
+form{
+     display:block; 
+}
+html {
+    background: black;
+    box-sizing: border-box;
+    height: 100%;
+    /*overflow-x: hidden;*/
+    width: 100%;
+}
+
+fieldset{
+    background-color: aquamarine;
+    /*border: 0;
+    margin: 0;
+    padding: 0;*/
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+}
+legend{
+    font-weight: normal;
+    color:black;
+   
+}
+label{
+    background-color: blueviolet;
+    font-weight: bolder;
+    font-style: italic;
+    color:white;
+    
+}
+input{
+    background-color: white;
+
+}
+main{
+    display:block;
+    background: white;
+    margin: auto;
+    max-width: 180rem;
+    padding: 5rem 2rem;
+    width: 90%;
+    border-radius: 3px;
+}
+p {
+    color: black;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 1.3rem;
+  }
+  

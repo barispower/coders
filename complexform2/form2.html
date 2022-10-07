@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+         
+    <link href="style.css" rel="stylesheet"> 
+    <title> Form example</title>
+  </head>
+  <body>
+    <main>
+    <h1> Profil</h1>
+    <h2>Hier können Sie Ihre Adress-Angaben einsehen und anpassen.</h2>
+    <form> 
+      <fieldset>
+          <legend>Persönliche Daten</legend><br>
+          <label for="titel">Titel</label>
+          <input type="text" name="titel" id="titel" placeholder="Optional"><br><br>
+          <label for="vorname">Vorname</label>
+          <input type="text" name="vorname" id="vorname"><br><br>
+          <label for="vorname">Nachaname</label>
+          <input type="text" name="nachname" id="nachname" placeholder="Muster"><br><br>
+          
+          <label for="Geschlecht">Geschlecht </label> <div class="btn-group1">
+            <button>W</button> <button>M</button><br>
+
+          <label for="sprache">Sprache</label>
+          <div class="btn-group2"><br>
+            <button>DE</button><button>FR</button><button>IT</button><br>
+      </fieldset>      
+      
+      <fieldset>
+          <legend>Kontaktdaten</legend><br>
+          <label for="telefon">Telefon</label>
+          <input type="tel" name="telefon" id="telefon" required><br><br>
+          <label for="mobile">Mobile</label>
+          <input type="tel" name="mobile" id="mobile" placeholder="optional"><br><br>
+          <label for="hauptnummer">Hauptnummer</label>
+          <input type="tel" name="hauptnummer" id="hauptnummer" placeholder="optional"><br><br>
+          <label for="fax">Fax</label>
+          <input type="tel" name="fax" id="fax" placeholder="optional"><br><br>
+          <label for="mail1">Mail 1</label>
+          <input type="email" name="mail1" id="mail1" required><br><br>
+          <label for="mail2">Mail 2</label>
+          <input type="email" name="mail2" id="mail2" placeholder="optional"><br><br>
+      </fieldset>  
+
+      <fieldset>
+          <legend>Adressdaten</legend><br>
+          <label for="firma">Firma</label>
+          <input type="text" name="firma" id="firma" required><br><br>
+          <label for="zfirma">Zusatz Firma</label>
+          <input type="text" name="zfirma" id="zfirma" placeholder="optional"><br><br>
+          <label for="hpage">Homepage</label>
+          <input type="url" name="hpage" id="hpage" placeholder="optional"><br><br>
+          <label for="hadresse">Adresse / Haus Nr</label>
+          <input type="text" name="hadresse" id="hadresse" >
+          <input type="number" name="nummer" id="nummer" ><br><br>
+          <label for="zadresse">Zusatz Adresse</label>
+          <input type="text" name="zadresse" id="zadresse" placeholder="optional"><br><br>
+          
+          <label for="postfach">Postfach</label>
+          <input type="text" name="postfach" id="postfach" placeholder="optional"><br><br>
+          <label for="plz">PLZ / Ort</label>
+          <input type="tel" name="plz" id="plz" >
+          <input type="text" name="ort" id="ort" ><br><br>
+          <label for="kanton">Kanton / Land</label>
+          <input type="text" name="kanton" id="kanton" placeholder="ZH">
+          <input type="text" name="land" id="land" placeholder="Schweiz"><br><br>
+          <button type="submit" >Speichern</button> 
+      </fieldset>
+
+    </form>
+    
+    </main>
+  </body>
+</html>
