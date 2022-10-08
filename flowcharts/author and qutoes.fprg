@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ismet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-07 04:32:31 PM"/>
+        <attribute name="created" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzsxMDoxNTo1MyBBTTsyMzYx"/>
+        <attribute name="edited" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzsxMDo1ODozNyBBTTsxOzI0Nzg="/>
+        <attribute name="edited" value="UG93ZXJjb2RlcnM7REVTS1RPUC1NVTNNNlBQOzIwMjItMTAtMDc7MDQ6MzI6MzEgUE07NDszNjM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Author" type="String" array="False" size=""/>
+            <declare name="Quote" type="String" array="False" size=""/>
+            <output expression="&quot;Please enter the name of Author&quot;" newline="True"/>
+            <input variable="Author"/>
+            <output expression="&quot;Please enter the quote!&quot;" newline="True"/>
+            <input variable="Quote"/>
+            <output expression="&quot;Author says&quot; &amp;&quot; &quot; &amp;&quot;'&quot; &amp;quote &amp;&quot;'&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ismet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-07 03:25:31 PM"/>
+        <attribute name="created" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzsxMDoxNTo1MyBBTTsyMzYx"/>
+        <attribute name="edited" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzsxMDo1ODozNyBBTTsxOzI0Nzg="/>
+        <attribute name="edited" value="UG93ZXJjb2RlcnM7REVTS1RPUC1NVTNNNlBQOzIwMjItMTAtMDc7MDM6MjU6MzEgUE07NTszNjM2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="results" type="Integer" array="False" size=""/>
+            <declare name="text" type="String" array="False" size=""/>
+            <output expression="&quot;Enter your text&quot;" newline="True"/>
+            <input variable="text"/>
+            <assign variable="results" expression="len(text)"/>
+            <output expression="&quot;number of characters &quot; &amp;results &amp;&quot;  &quot; &amp;text" newline="True"/>
+        </body>
+    </function>
+    <function name="count" type="String" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>

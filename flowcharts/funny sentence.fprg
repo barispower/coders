@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ismet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-07 04:39:48 PM"/>
+        <attribute name="created" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzsxMDoxNTo1MyBBTTsyMzYx"/>
+        <attribute name="edited" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzsxMDo1ODozNyBBTTsxOzI0Nzg="/>
+        <attribute name="edited" value="UG93ZXJjb2RlcnM7REVTS1RPUC1NVTNNNlBQOzIwMjItMTAtMDc7MDQ6Mzk6NDggUE07NTszNjUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="noun" type="String" array="False" size=""/>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="verb" type="String" array="False" size=""/>
+            <declare name="adjective" type="String" array="False" size=""/>
+            <declare name="adverb" type="String" array="False" size=""/>
+            <output expression="&quot;Please enter a noun!&quot;" newline="True"/>
+            <input variable="noun"/>
+            <output expression="&quot;Please enter a name!&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Please enter a verb!&quot;" newline="True"/>
+            <input variable="verb"/>
+            <output expression="&quot;Please enter an adjective!&quot;" newline="True"/>
+            <input variable="adjective"/>
+            <output expression="&quot;Please enter an adverb!&quot;" newline="True"/>
+            <input variable="adverb"/>
+            <output expression="name &amp;&quot; &quot; &amp;verb &amp;&quot; &quot; &amp;adjective &amp;&quot; &quot; &amp;noun &amp;&quot; &quot; &amp;adverb" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

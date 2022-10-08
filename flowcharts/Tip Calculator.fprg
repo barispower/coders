@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ismet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-07 01:51:47 PM"/>
+        <attribute name="created" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzsxMDoxNTo1MyBBTTsyMzYx"/>
+        <attribute name="edited" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzsxMDo1ODozNyBBTTsxOzI0Nzg="/>
+        <attribute name="edited" value="UG93ZXJjb2RlcnM7REVTS1RPUC1NVTNNNlBQOzIwMjItMTAtMDc7MDE6NTE6NDcgUE07MTszNjM2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="bill" type="Real" array="False" size=""/>
+            <declare name="tipPercentage" type="Real" array="False" size=""/>
+            <declare name="tipAmount" type="Real" array="False" size=""/>
+            <declare name="totalAmount" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter the bill amount&quot;" newline="True"/>
+            <input variable="bill"/>
+            <output expression="&quot;Good! Now enter the tip percentage % please!&quot;" newline="True"/>
+            <input variable="tipPercentage"/>
+            <assign variable="tipAmount" expression="bill*tipPercentage*0.01"/>
+            <output expression="&quot;The tip amount is CHF&quot; &amp;tipAmount" newline="True"/>
+            <assign variable="totalAmount" expression="bill+tipAmount"/>
+            <output expression="&quot;The total amount is CHF&quot; &amp;totalAmount" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

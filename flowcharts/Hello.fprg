@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ismet"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-07 02:01:04 PM"/>
+        <attribute name="created" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzsxMDoxNTo1MyBBTTsyMzYx"/>
+        <attribute name="edited" value="aXNtZXQ7QkFLQVktSFA7MjAyMi0xMC0wNzsxMDo1ODozNyBBTTsxOzI0Nzg="/>
+        <attribute name="edited" value="UG93ZXJjb2RlcnM7REVTS1RPUC1NVTNNNlBQOzIwMjItMTAtMDc7MDI6MDE6MDQgUE07MjszNjI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <output expression="&quot;What is your name?&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Hello &quot;  &amp;name" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
