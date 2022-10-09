@@ -12,31 +12,71 @@
     <form> 
       <fieldset>
           <legend>Persönliche Daten</legend><br>
-          <label for="titel">Titel</label>
-          <input type="text" name="titel" id="titel" placeholder="Optional"><br><br>
+          
+          <label for="Titel"> Titel</label> <input type="text" id="name" name="name" placeholder="Optional"> <br><br>
+          
           <label for="vorname">Vorname</label>
           <input type="text" name="vorname" id="vorname"><br><br>
-          <label for="vorname">Nachaname</label>
+          <label for="nachname">Nachaname</label>
           <input type="text" name="nachname" id="nachname" placeholder="Muster"><br><br>
+
+           <!-- date studying area-->
+          <label for="date of birth">Date of birth</label>
+          <input type="date" name="date" id="date" ><br><br>
+           <!-- number box-max and min studying area-->
+          <label for="number of kids">Number of kids</label>
+          <input type="number" name="qty" id="qty" min="0" max="10"><br><br>
           
-          <label for="Geschlecht">Geschlecht </label> <div class="btn-group1">
-            <button>W</button> <button>M</button><br>
+          <!-- radio button studying area   CHECKED-->
+          <p>What kind of vehicle do you have?</p>
+       
+            <label><input type="radio" name="vehicle type" value="Truck" checked>Big Truck</label>
+            
+           <label> <input type="radio" name="vehicle type" value="Sedan">Sedan </label>
+           
+           <label> <input type="radio" name="vehicle type" value="Bicycle">Bicycle </label>   
+          
+           <label> <input type="radio" name="vehicle type" value="Motorcycle">Motorcycle </label> <br><br> 
+      
+          <!-- select tag studying area, "whereever you add "selected" it will indicate there as reserved"-->
+
+          <label for="lifetype">What kind of life do you live in?</label><br><br>
+          <select id="lifetype" name="lifetype">
+          <option selected>Select one..</option>
+              <option> Active life</option>
+              <option> Passif life</option>
+              <option> Oh my god life</option>
+              <option> Not bad life</option>
+          </select><br><br>
+          
+          <label for="comments">Special requests</label><br>
+          <textarea id="comments" name="comments" placeholder="you can write here whatever you wish"></textarea><br>
+          <!--  CHECK BOX-->
+          <label for="subscribe">
+          <input type="checkbox" value="subscribe" name="subscribe" id="subscribe">Add me to your email info list please </label><br><br>
+
+          
+
+          <label for="Geschlecht">Geschlecht </label> <br> <div class="btn-group1"><br>
+            <button>W</button> <button>M</button><br><br>
 
           <label for="sprache">Sprache</label>
           <div class="btn-group2"><br>
             <button>DE</button><button>FR</button><button>IT</button><br>
       </fieldset>      
       
-      <fieldset>
+      <fieldset><!--REQUIRED study inside-->
           <legend>Kontaktdaten</legend><br>
           <label for="telefon">Telefon</label>
           <input type="tel" name="telefon" id="telefon" required><br><br>
+          
           <label for="mobile">Mobile</label>
           <input type="tel" name="mobile" id="mobile" placeholder="optional"><br><br>
           <label for="hauptnummer">Hauptnummer</label>
-          <input type="tel" name="hauptnummer" id="hauptnummer" placeholder="optional"><br><br>
+          <input type="phone" name="hauptnummer" id="hauptnummer" placeholder="optional"><br><br>
           <label for="fax">Fax</label>
           <input type="tel" name="fax" id="fax" placeholder="optional"><br><br>
+          
           <label for="mail1">Mail 1</label>
           <input type="email" name="mail1" id="mail1" required><br><br>
           <label for="mail2">Mail 2</label>
@@ -65,9 +105,10 @@
           <label for="kanton">Kanton / Land</label>
           <input type="text" name="kanton" id="kanton" placeholder="ZH">
           <input type="text" name="land" id="land" placeholder="Schweiz"><br><br>
-          <button type="submit" >Speichern</button> 
+          
+           
       </fieldset>
-
+      <button type="submit" >Order your form</button>
     </form>
     
     </main>
