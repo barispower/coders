@@ -1,0 +1,15 @@
+Retirement calculator;
+
+Start;
+
+1- Input your age as age;
+2- Typeof age != Number, turn 1;
+3- Input age you want to retire as retage;
+4- Typeof  retage != Number, turn 3;
+5- Difference = retage - age ;
+6- retyear = currentyear + Difference;
+7- Print : "You are" + age + "years old" . + "you have" + Difference + "years" + "so you can retire in " + retyear);
+
+cons
+1- Inputs must be positive number;
+2- Retirement age can not be earlier than current age.
