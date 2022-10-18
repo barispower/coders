@@ -1,0 +1,18 @@
+Mandatory:
+1. Add a task
+2. Delete an already added task
+3. Add a deadline to a task
+4. Modify a task
+5. Assign the priority
+6. Mark a task as completed
+7. Store the data
+
+
+Nice to have:
+1. Add images
+2. Assign a color to a task
+3. Set up a reminder
+4. Put in order depending to the importance, deadline, etc.
+5. Auto-delete after the task was completed
+6. Changeable view style
+7. Add hidden details
