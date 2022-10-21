@@ -1,0 +1,19 @@
+var bookList = document.createElement('ul');
+
+    for (book of books) {
+      
+      var bookItem = document.createElement('li');
+      var bookDescription = document.createTextNode(book.title + ' by ' + book.author);
+      bookItem.appendChild(bookDescription);
+      
+      bookList.appendChild(bookItem);
+      
+      
+    }
+    document.body.appendChild(bookList);
+          
+    //read or not, below
+    if (book[books].alreadyRead) {
+        bookItem.style.color = 'red'; }
+   
+    document.body.appendChild(bookList);
