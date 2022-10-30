@@ -1,14 +1,46 @@
-body{
-    background-color:aquamarine;
+html{
+    box-sizing: border-box;
+    
 }
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    background-color: brown;
+}
+main{
+    display: block;
+    margin:auto;
+    padding:2rem 2rem;
+    width: 90%;
+    max-width: 100rem;
+    background-color: aquamarine; 
+    
+}
+
+
 footer{
     border-top: 2px solid red;
+    text-align: center;
+}
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: blueviolet;
+    
+}
+.leftheader{
+   flex-basis: 50%;
+    background-color: aquamarine;
+}
+.rightheader{
+    flex-basis:50%;
+    border:2px dotted blue;
+    background-color: yellowgreen;
 }
 
 
-section{
-    font-size:3em ;
-}
 .a{
     font-size: 1rem;
 }
@@ -18,7 +50,56 @@ section{
 }
 
 .box1 img{
-    border:5px solid red;
+    border:2px solid black;
     display: block;
     margin:50px auto;
+    border-radius: 10%;
+    align-items: stretch;
 }
+nav{
+    border-bottom:  2px solid red;
+    border-top:  2px solid black;
+    position: relative;
+    text-align: center;
+}
+nav ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    
+    
+}
+nav li{
+    width:13rem;
+    background-color: yellow;
+    text-align: center;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+nav a{
+    border:3px solid black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    display:block;
+    padding:0.5rem 1rem
+}
+nav a:hover{
+    background-color: brown;
+    color:blanchedalmond;
+}
+
+.others{
+    height:400px;
+    width:max-content;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: blueviolet;
+   
+   }
